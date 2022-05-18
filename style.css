@@ -1,0 +1,163 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    display: block;
+
+
+}
+
+header {
+
+    background-color: rgb(10, 160, 247);
+    margin: auto;
+    padding: 10px;
+}
+
+.title {
+
+    font-size: 26px;
+    text-align: center;
+    margin: 0;
+    color: white;
+    font-weight: bolder;
+}
+
+.formularies {
+
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.677);
+    color: black;
+    max-width: 200px;
+    float: right;
+    margin-bottom: 5px;
+
+}
+
+section {
+    padding: 20px;
+    background-image: url(./images/people.jpg);
+    background-size: cover;
+    overflow: hidden;
+
+}
+
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-style: none;
+    box-sizing: border-box;
+
+
+}
+
+.select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url(./images/arrow.jpg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) center;
+
+
+}
+
+.subscribe {
+
+    background-color: rgb(10, 160, 247);
+    color: white;
+    font-weight: bold;
+}
+
+.mb {
+
+    margin-bottom: 15px;
+
+}
+
+.description {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    max-width: 40%;
+    font-size: 13px;
+    text-align: left;
+    margin-left: 5%;
+
+}
+
+.gray_face {
+
+    margin-left: 25%;
+
+}
+
+footer {
+
+    padding: 20px;
+    background-color: rgb(27, 26, 26);
+
+}
+
+.description h3 {
+
+    font-size: 18px;
+
+}
+
+.formularies h4 {
+
+    margin-top: -1px;
+}
+
+
+@media only screen and (max-width:800px) {
+
+
+    .formularies {
+
+        padding: 15px;
+        background-color: rgba(255, 255, 255, 0.677);
+        color: black;
+        max-width: 200px;
+        float: none;
+        margin: auto;
+        margin-bottom: 5px;
+
+
+    }
+
+    .gray_face {
+
+        margin-left: 25%;
+        display: block;
+        margin: auto;
+        width: 90px;
+    }
+
+    .description {
+        display: block;
+        color: rgb(255, 255, 255);
+        max-width: 40%;
+        font-size: 13px;
+        text-align: left;
+        margin-left: 5%;
+        margin: auto;
+
+    }
+
+    .description h3 {
+
+        text-align: center;
+
+    }
+
+
+}
